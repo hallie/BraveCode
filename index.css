@@ -1,0 +1,145 @@
+@font-face {
+	font-family: 'Roboto-Condensed';
+	src: url('Roboto_Condensed/RobotoCondensed-Light.ttf');
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	top: 0;
+	left: 0;
+}
+
+body {
+	position: absolute;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: Roboto-Condensed;
+	background: #ECEFF1;
+}
+
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 15%;
+	width: 100%;
+	margin: 0;
+	color: #FAFAFA;
+}
+
+#header-right {
+	position: absolute;
+	height: 100%;
+	width: 70%;
+	background: #96298A;
+}
+
+#header-left {
+	position: absolute;
+	left: 70%;
+	height: 100%;
+	width: 30%;
+	background: #68308C;
+}
+
+#header-left #burger {
+	position: absolute;
+	fill: white;
+	top: 15%;
+	left: 60%;
+}
+
+#title {
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	font-size: 130%;
+}
+
+#flag {
+	position: absolute;
+	margin: 10%;
+	height: 10%;
+}
+
+.middle {
+	position: absolute;
+	height: 60%;
+	width: 100%;
+	background: #ECEFF1;
+}
+
+.middle#body {
+	position: absolute;
+	top: 10%;
+	left: 0;
+	height: 90%;
+}
+
+#text {
+	position: absolute;
+	top: 17%;
+	left: 10%;
+	height: 15%;
+	color: #445A63;
+}
+
+#text #do-not {
+	font-size: 80%;
+}
+
+#text #sign-up {
+	position: absolute;
+	font-size: 130%;
+	top: 50%;
+}
+
+form {
+	position: absolute;
+	top: 30%;
+	left: 5%;
+	width: 85%;
+}
+
+form input {
+	margin: 5%;
+	width: 95%;
+	border-radius: 3px;
+	height: 20px;
+	font-family: Roboto-Condensed;
+}
+
+form #button {
+	position: absolute;
+	width: 30%;
+	height: 30%;
+	color: #FAFAFA;
+	background: #68308C;
+}
+
+form #need-help {
+	position: absolute;
+	top: 125%;
+	left: 82%;
+	font-size: 80%;
+	color: #839AA4;
+}
+
+.footer {
+	position: absolute;
+	top: 70%;
+	left: 0;
+	height: 30%;
+	width: 100%;
+	background: #E0E5E8;
+}
+
+.footer #title {
+	position: absolute;
+	top: 70%;
+	color: #839AA4;
+	font-size: 90%;
+}
