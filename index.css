@@ -48,14 +48,15 @@ body {
 #header-left #burger {
 	position: absolute;
 	fill: white;
-	top: 15%;
-	left: 60%;
+	top: 21%;
+	left: 65%;
+	height: 22%;
 }
 
 #title {
 	position: absolute;
 	top: 20%;
-	left: 10%;
+	left: 17%;
 	font-size: 130%;
 }
 
@@ -108,8 +109,11 @@ form input {
 	margin: 5%;
 	width: 95%;
 	border-radius: 3px;
-	height: 20px;
+	height: 30px;
 	font-family: Roboto-Condensed;
+	font-size: 110%;
+	border: 0;
+	outline: 0;	
 }
 
 form #button {
